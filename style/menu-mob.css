@@ -1,0 +1,91 @@
+@media screen and (min-width:1000px)
+{
+.menu-mob{
+    display: none;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+.menu-mob{
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 180px;
+    background-color: darkred;
+    font-family: 'Piedra', cursive;
+}
+.menu-mob ul{
+    float: left;
+    margin: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.menu-mob ul li{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: inline-block;
+    width: 23.8%;
+    height: 90%;
+    text-align: center;
+    font-size: 40px;
+}
+.btn-menu-mob{
+    background-color: black;
+}
+.btn-menu-mob:hover{
+    background-color: darkred;
+}
+.menu-mob ul li img{
+    float: left;
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
+    height: 60%;
+}
+.sub-menu-mob{
+    float: left;
+    position: absolute;
+    margin-left: 0%;
+    width: 99%;
+    height: 702px;
+    background-color: darkred;
+    color: white;
+    font-family: 'Piedra', cursive;
+}
+.sub-menu-mob ul{
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 92%;
+}
+.sub-menu-mob ul li{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 98%;
+    height: 34%;
+    display: inline-block;
+    font-size: 48px;
+    line-height: 4.5;
+    background-color: black;
+}
+.sub-menu-mob ul li:hover{
+    background-color: darkred;
+}
+.sub-menu-mob ul li img{
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    width: 18%;
+    height: 70%;
+}
+.btn-sub-menu-sel{
+    background-color: darkred;
+}
+}

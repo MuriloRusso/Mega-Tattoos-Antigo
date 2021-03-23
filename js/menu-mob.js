@@ -1,0 +1,14 @@
+$(function(){ 
+        $('.btn-sub-menu').click(function(){
+          $('.sub-menu-mob').fadeIn(200);
+          $('.btn-sub-menu-sel').show();
+          $('.btn-sub-menu').hide();
+        });
+      }); 
+      $(function(){ 
+        $('.btn-sub-menu-sel').click(function(){
+          $('.sub-menu-mob').fadeOut(200);
+          $('.btn-sub-menu-sel').hide();
+          $('.btn-sub-menu').show();
+        });
+      }); 

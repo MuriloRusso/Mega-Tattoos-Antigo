@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mega Tattoos</title>
+    <meta name="description" content="Agen">
+    <link rel="icon" type="imagem/png" href="img/logo2-3.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/menu-mob.css">
+    <link rel="stylesheet" href="style/midias.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="style/box.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/pages/tatuagens.css">
+    <link rel="stylesheet" href="style/pages/piercings.css"> 
+    <link rel="stylesheet" href="style/pages/agendar.css"> 
+    <link rel="stylesheet" href="style/pages/localizacao.css">
+    <link rel="stylesheet" href="style/pages/faleconosco.css">  
+    <link rel="stylesheet" href="style/pages/boxes/modelos.css">
+    <link rel="stylesheet" href="style/pages/boxes/tatuadores.css">
+    <link rel="stylesheet" href="style/pages/boxes/instalacoes.css">
+    <link rel="stylesheet" href="style/pages/footer/desenvolvimento.css">
+    <link rel="stylesheet" href="style/pages/footer/sobre.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+  </head>
+<body>
+   <div class="wpp">
+    <div class="border">
+       <div class="container">
+           <header>
+              <div class="container-logo">
+                  <div class="logo">
+                      <img src="img/logo2-1.png" id="logo-2-1">
+                      <img src="img/logo2-2.png" id="logo-2-2">
+                      <img src="img/logo2-3.png" id="logo-2-3">
+                  </div>
+               </div>
+            </header>
+           <marquee class="midias" behavior="slide">
+               <nav class="font-white">
+                   <ul>
+                       <li id="midia-1"><img src="img/midias/whatsapp.png"> whatsapp</li>
+                       <li id="midia-2"><img src="img/midias/face.png">Facebook</li>
+                       <li id="midia-3"><img src="img/midias/insta.png">Instragram</li>
+                       <li id="midia-4"><img src="img/midias/twitter.png">Twitter</li>
+                       <li id="midia-5"><img src="img/midias/youtube.png">Youtube</li>
+                   </ul>
+               </nav>
+           </marquee>
+           <a href="#">
+               <nav class="menu font-white">
+                <ul>
+                    <li class="btn-1">Inicio</li>
+                    <li>Serviços
+                        <ul>
+                            <li class="btn-2">Tatuagens</li>
+                            <li class="btn-3">Piercings</li>
+                            <li class="btn-4">Agendar</li>
+                        </ul>
+                    </li>
+                    <li class="btn-5">Localização</li>
+                    <li class="btn-6">Fale Conosco</li>
+                </ul>
+            </nav>
+            </a> 
+            <nav class="menu-mob">
+                <ul>
+                    <li class="btn-1 btn-menu-mob"><img src="img/menu-mob/home.png">Inicio</li>
+                    <li class="btn-sub-menu btn-menu-mob"><img src="img/menu-mob/servicos.png">Serviços</li>
+                    <li class="btn-sub-menu-sel" style="display:none"><img src="img/menu-mob/servicos.png">Serviços</li>
+                    <li class="btn-5 btn-menu-mob"><img src="img/menu-mob/localizacao.png">Localização</li>
+                    <li class="btn-6 btn-menu-mob"><img src="img/menu-mob/fale.png">Fale Conosco</li>
+                </ul>
+            </nav>
+            <div class="center">
+                <nav class="sub-menu-mob" style="display:none">
+                        <ul>
+                            <li class="btn-2"><img src="img/menu-mob/tattoo.png">Tatuagens</li>
+                            <li class="btn-3"><img src="img/menu-mob/ear.png">Piercings</li>
+                            <li class="btn-4"><img src="img/menu-mob/calendar.png">Agendar</li>
+                        </ul>
+                </nav>
+                <div class="container-page scroll-mob" id="tatuagens" style="display:none">
+                    <h1>Tatuagens</h1>
+                        <div>
+                            <img src="img/tatuagens/img-1.jpg">
+                        </div>
+                        <div>
+                            <p class="font-white font-size-mob font-size txt-margin">A tatuagem é uma das formas de modificação do corpo mais conhecidas e cultuadas do mundo. Trata-se de uma arte permanente feita na pele humana que, tecnicamente, consiste em uma aplicação subcutânea obtida através da introdução de pigmentos por agulhas. Nosso estúdio possui diversos modelos desde tribais, desenhos símbolos. Além disso, contamos com especialistas em determinadas áreas como; tatuagem 3D é tatuagem realista  (rosto de pessoas, animais e etc).</p>
+                        </div>
+                </div>
+                <div class="container-page" id="piercings" style="display:none">
+                    <h1>Piercings</h1>
+                        <div>
+                            <img src="img/piercings/piercing-1.webp">
+                        </div>
+                        <div>
+                            <p class="font-white font-size-mob font-size txt-margin">Nosso estúdio possui um body piercin, agenda um horário com ele pelo telefone ou no nosso Whatsapp. Caso deseje, o horário pode ser marcado no local. </p>
+                        </div>
+                </div>
+                <div class="container-page scroll-mob" id="agendar" style="display:none">
+                    <h1>Agendamento</h1>
+                        <div>
+                            <form method="POST" class="font-white" action="agendamento.php">
+                                <input type="text" name="nome" class="input-txt" placeholder="Digite seu Nome aqui..." id="nome-agendar"><br>
+                                <input type="email" name="email" class="input-txt" placeholder="Digite seu e-mail..." id="email-agendar"><br>
+                                <input type="tel" name="tel" class="input-txt" placeholder="Digite seu celular..." id="telefone-agendar" onkeypress="$(this).mask('(00) 00000-0000')"><br>
+                               <!-- <input type="radio" name="opcao" value="Tatuagem">Tatuagem
+                                <input type="radio" name="opcao" value="Piercings">Piercings<br> -->
+                                <select name="opcao" class="select-txt" id="opcao-agendar">
+                                    <option value="tatuagem" selected="selected">Tatuagem</option>
+                                    <option value="piercing">Piercing</option>
+                                </select><br>
+                                <input id="date" type="date" class="input-txt" name="data" placeholder="Selecione a data desejada" id="data-agendar"><br>
+                                <select name="horario" class="select-txt" id="horario-agendar">
+                                    <option disabled selected>Selecione o Horário</option>
+                                    <option value="08h">08:00</option>
+                                    <option value="09h">09:00</option>
+                                    <option value="10h">10:00</option>
+                                    <option value="11h">11:00</option>
+                                    <option value="12h">12:00</option>
+                                    <option value="13h">13:00</option>
+                                    <option value="10h">14:00</option>
+                                    <option value="15h">15:00</option>
+                                    <option value="16h">16:00</option>
+                                    <option value="17h">17:00</option>
+                                    <option value="18h">18:00</option>
+                                    <option value="19h">19:00</option>
+                                    <option value="20h">20:00</option>                                  
+                                </select><br>
+                                <input type="submit" class="btn-agendar" name="enviar" value="Agendar" onclick="agendar()">    
+                            </form>
+                        </div>
+                </div>
+                <div class="container-page scroll-mob" id="localizacao" style="display:none">
+                    <h1>Localização</h1>
+                    <div>
+                        <iframe class="Mapa" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=buenos+aires&amp;sll=37.0625,-95.677068&amp;sspn=38.638819,80.859375&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Buenos+Aires,+Argentina&amp;z=11&amp;ll=-34.603723,-58.381593&amp;output=embed">
+                        </iframe>
+                    </div>
+                    <div>
+                        <p class="font-white font-size-mob font-size">Av. Professor Luiz Ignácio Anhaia Mello, 1363 - Vila Prudente, <br>São Paulo - SP, 03155-000</p>
+                    </div>
+                </div>
+                <div class="container-page" id="faleconosco" style="display:none">
+                    <h1>Fale Conosco</h1>
+                    <div>
+                        <form method="POST" action="messagem.php">
+                            <input type="text" class="txt" name="nome" placeholder="Digite seu Nome aqui..."><br>
+                            <input type="e-mail" class="txt" name="email" placeholder="Digite seu e-mail..."><br>
+                            <textarea type="text" class="msg" name="message" placeholder="Digite sua messagem..."></textarea><br>
+                            <input type="submit" class="btn-msg font-white" name="enviar" value="Enviar">    
+                        </form>
+                    </div>
+                </div>
+                <div class="container-page scroll" id="modelos" style="display:none">
+                    <h1>Modelos</h1>
+                    <p class="font-white font-size-mob font-size">Contamos um mural de modelos e desenhos já realizados, se estiver indeciso sobre o que vai querer. Confira alguns exemplos nas ilustrações abaixo, diversos tipos de traços especializados.</p>
+                    <div>
+                        <img src="img/tatuagens/img-1.jpg">
+                    </div>
+                    <div>
+                        <img src="img/tatuagens/img-2.jpg">
+                    </div>
+                    <div>
+                        <img src="img/tatuagens/img-3.jpg">
+                    </div>
+                    <div>
+                        <img src="img/tatuagens/img-4.jpg">
+                    </div>
+                </div>
+                <div class="container-page scroll-mob" id="tatuadores" style="display:none">
+                    <h1>Tatuadores</h1>
+                    <div>
+                        <img src="img/right-menu/tatuadores.jpg">
+                    </div>
+                    <div>
+                        <p class="font-white font-size-mob font-size txt-margin">
+Contamos com uma equipe de profissionais experientes e altamente qualificados, nossa designação vai de acordo com a solicitação do cliente. A confiança e o conforto é a maior prioridade na hora de atender você, caso deseje, está convidado para vir conhecê-los e ver seu serviço pessoalmente.</p>
+                    </div>
+                </div>
+                <div class="container-page scroll" id="instalacoes" style="display:none">
+                    <h1>Instalações</h1>
+                    <p class="font-white font-size-mob font-size txt-margin">Nossas instalações contam com equipamentos de ponta como agulhas especializadas, equipamentos de higiene de alta qualidade, tintas importadas e um ambiente preparado para o seu maior conforto e comodidade durante suas sessões.</p>
+                    <div>
+                        <img src="img/instalacoes/img-1.jpg">
+                    </div>
+                    <div>
+                        <img src="img/instalacoes/img-2.png">
+                    </div>
+                    <div>
+                        <img src="img/instalacoes/img-3.jpg">
+                    </div>
+                </div>
+                <div class="container-page scroll" id="desenvolvimento" style="display:none">
+                    <div>
+                    <h1>Desenvolvimento</h1>
+                        <div class="container-img-desenvolvimento">
+                        <img src="img/desenvolvimento/html.png">
+                        <img src="img/desenvolvimento/CSS.png">
+                        <img src="img/desenvolvimento/jQuery.jpg">
+                        <img src="img/desenvolvimento/PHP.png">
+                        </div>
+                        <h1>HTML 5</h1>
+                        <p class="font-size-mob font-size txt-margin">HTML é uma das linguagens que utilizamos para desenvolver websites. O acrônimo HTML vem do inglês e significa Hypertext Markup Language ou em português Linguagem de Marcação de Hipertexto, a linguagem é utilizada para definir o conteudo da nossa pagina na web.</p>
+                        <h1>CSS 3</h1>
+                        <p class="font-size-mob font-size txt-margin">O Cascading Style Sheets (CSS) é uma linguagem utilizada para definir a apresentação (aparência) de documentos que adotam para o seu desenvolvimento linguagens de marcação (como XML, HTML e XHTML e etc..). O CSS define como serão exibidos os elementos contidos no código de um documento e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento.</p>
+                        <h1>JavaScript</h1>
+                        <p class="font-size-mob font-size txt-margin">JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. A cada momento uma página web faz mais do que apenas mostrar informações estáticas para você - elas mostram em tempo real conteúdos atualizados, ou mapas interativos, animações gráficas em 2D/3D, vídeos, etc...</p>
+                        <h1>jQuery</h1>
+                        <p class="font-size-mob font-size txt-margin">jQuery é uma biblioteca de funções em JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do usuário (client-side). Criada em dezembro de 2006 no BarCamp de Nova York por John Resig. Usada por cerca de 77% dos 10 mil sites mais visitados do mundo, jQuery é a mais popular das bibliotecas JavaScript, o jQuery é usado em nossa pagina para criação de animação em textos, imagens e etc...</p>
+                        <h1>PHP</h1>
+                        <p class="font-size-mob txt-margin">PHP 7 é uma linguagem de programação utilizada por programadores e desenvolvedores para construir sites dinâmicos.</p>
+                    </div>
+                </div>
+                <div class="container-page scroll-mob" id="sobre" style="display:none">
+                    <div>
+                        <img src="img/logo2-3.png">
+                    </div>
+                    <div>
+                        <p class="font-white font-size-mob font-size txt-margin">Somos um estúdio que está no mercado desde xxxx, nosso objetivo é sempre manter o profissionalismo , perfeição e boa relação com nossos clientes. Trabalhamos sempre para passar ao papel as idéias de tatuagens do cliente, ou seja, sempre entregar aquilo que é desejado. Por isso contamos com uma equipe de profissionais experientes que estão sempre se especializando nas novidades para entregar projetos melhores e modernos.</p>
+                    </div>
+                </div>
+                <div class="container-page" id="politica" style="display:none">
+                    <h1>Politica de Segurança</h1>
+                    <p class="font-white  font-size-mob txt-margin">Nossa política de segurança é sempre zelar pela satisfação, segurança e bem estar do nosso cliente. Respeitamos todos os protocolos de saúde e de higiene, luvas e agulhas são descartáveis, além de instruir o cliente com toda a cautela sobre os cuidados com a pele após a tatuagem ser feita.</p>
+                </div>
+                <div class="container-page" id="suporte" style="display:none">
+                    <h1>Suporte</h1>
+                </div>
+            </div>
+        </div>
+        <a href="#">
+            <div class="container-box font-white">
+                <marquee behavior="slide" direction="up">
+                    <div class="btn-7">
+                        <h1 class="font-white">Modelos</h1>
+                        <img src="img/right-menu/modelos.jpg">
+                    </div>
+                    <div class="btn-8">
+                        <h1 class="font-white">Tatuadores</h1>
+                        <img src="img/right-menu/tatuadores.jpg">
+                    </div>
+                    <div class="btn-9">
+                        <h1 class="font-white">Instalações</h1>
+                        <img src="img/right-menu/instalacoes.jpg">
+                    </div>
+                </marquee>
+            </div>
+         </a>
+         <footer class="font-white">
+            <h1 class="font-white">Institucional</h1>
+            <a href="#">
+            <nav>
+                <ul>
+                    <li class="btn-10">Desenvolvimento</li>
+                    <li class="btn-11">Sobre nós</li>
+                    <li class="btn-12">Politica de segurança</li>
+                    <li class="btn-13">Suporte</li>
+                </ul> 
+            </nav>
+            </a>
+            <div class="flat"> Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
+         </footer>
+       </div>
+    </div>
+    </body>
+    <script>
+       /* function agendar(){
+            var nome = document.getElementById("nome-agendar").value;
+            var email = document.getElementById("email-agendar").value;
+            var telefone = document.getElementById("telefone-agendar").value;
+            var opcao = document.getElementById("opcao-agendar").value;
+            var data = document.getElementById("data-agendar").value;
+            var horario = document.getElementById("horario-agendar").value;
+            if(nome==null){
+                alert("Digite seu nome no campo indicado");
+                $('#nome-agendar').css('background', '#333');
+            }
+            else{}
+            alert("Agendamento Marcado");
+        }*/
+    </script>
+    <script type="text/javascript" src="js/menu-mob.js"></script>
+    <script type="text/javascript" src="js/pages.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+</html>

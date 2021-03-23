@@ -1,0 +1,11 @@
+#piercings div{
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+#piercings img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    float: left;
+}

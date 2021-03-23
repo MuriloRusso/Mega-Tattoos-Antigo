@@ -1,0 +1,23 @@
+#tatuadores div{
+    margin-left: 5%;
+    width: 45%;
+    height: 80%;
+    float: left;
+}
+#tatuadores div img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+#tatuadores div{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#tatuadores div img{
+    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+}
+}

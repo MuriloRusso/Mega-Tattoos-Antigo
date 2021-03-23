@@ -1,0 +1,21 @@
+#tatuagens div{
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+#tatuagens img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    float: left;
+}
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+#tatuagens div{
+    width: 100%;
+}
+#tatuagens img{
+    width: 40%;
+    margin-left: 30%;
+}
+}

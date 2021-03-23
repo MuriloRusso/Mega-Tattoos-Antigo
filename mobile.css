@@ -1,0 +1,42 @@
+
+@media screen and (min-width:800px) and (max-width:1000px)
+{
+.wpp{
+    height: 2110px;
+}
+.center{
+    height: 700px;
+}
+}
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+.wpp{
+    width: 100%;
+    margin-top: 0;
+}
+.wpp header{
+    height: 280px;    
+}
+.container-page h1{
+    font-size: 60px;    
+}
+.scroll-mob{
+    overflow:auto; 
+}
+.font-size-mob{
+    font-size: 40px;    
+}
+.container{
+    width: 100%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:800px)
+{
+.wpp{
+    height: 1045px;
+} 
+.center {
+    height: 250px;
+    }
+}

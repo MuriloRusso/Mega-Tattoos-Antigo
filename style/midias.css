@@ -1,0 +1,72 @@
+.midias{
+    background-color: black;
+}
+.midias nav{
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+.midias ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.midias ul li{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 100%;
+    line-height: 2;
+    font-size: 18px;
+}
+.midias ul li img{
+    float: left;
+    text-align: center;
+    width: 23%;
+    height: 70%;
+    margin: 3% 5%;
+}
+#midia-1:hover{
+    background-image: -webkit-linear-gradient(top,darkgreen 0%,green 100%);
+    background-image: mozkit-linear-gradient(top,darkgreen 0%,green 100%);
+    background-image: linear-gradient(top,darkgreen 0%,green 100%);
+}
+#midia-2:hover{
+  background-image: -webkit-linear-gradient(top,#8FA4CC  0%,#44619C 100%);
+  background-image: -mozkit-linear-gradient(top,#8FA4CC  0%,#44619C 100%);
+  background-image: linear-gradient(top,#8FA4CC  0%,#44619C 100%);
+}
+#midia-3:hover{
+  background-image: -webkit-linear-gradient(top,#E46224  0%,#C61C40 100%);
+  background-image: -mozkit-linear-gradient(top,#E46224  0%,#C61C40 100%);
+  background-image: linear-gradient(top,#E46224  0%,#C61C40 100%);
+}
+#midia-4:hover{
+  background-image: -webkit-linear-gradient(top,#6CB4E3  0%,#2473BB 100%);
+  background-image: -mozkit-linear-gradient(top,#6CB4E3  0%,#2473BB 100%);
+  background-image: linear-gradient(top,#6CB4E3  0%,#2473BB 100%);
+}
+#midia-5:hover{
+  background-color: firebrick;
+}
+
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+.midias nav{
+    height: 130px;
+}
+.midias ul li{
+    font-size: 0px;
+    width: 13%;
+    margin-left: 6%;
+}
+.midias ul li img {
+    width: 70%;
+    height: 70%;
+    margin: 10% 15%;
+}
+}

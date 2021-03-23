@@ -1,0 +1,23 @@
+#localizacao div{
+    float: left;
+    width: 50%;
+    height: 80%;
+}
+#localizacao div p{
+    margin-left: 2%;
+}
+#localizacao div iframe{
+    float: left;
+    margin-left: 5%;
+    width: 95%;
+    height: 100%;
+}
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+#localizacao div{
+    width: 100%;
+}
+#localizacao div iframe{
+    width: 90%;
+}
+}

@@ -1,0 +1,28 @@
+#modelos p{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#modelos div{
+    width: 96%;
+    height: 350px;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    float: left;
+}
+#modelos div img{
+    width: 40%;
+    height: 80%;
+    margin: 5% 5%;
+}
+@media screen and (min-width:0px) and (max-width:1000px)
+{
+#modelos div{
+    height: 1000px;
+}
+#modelos div img{
+    width: 80%;
+    height: 90%;
+}
+}
